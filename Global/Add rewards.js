@@ -16,7 +16,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
   axios.get("https://dashboard.blooket.com/api/users/verify-session").then(a => {
     axios.put("https://play.blooket.com/api/users/add-rewards", {
       name: a.data.name,
-      addedTokens: 500,
+      addedTokens: 500000000000000000000000000000000000000000,
       addedXp: 300
     })
   });
